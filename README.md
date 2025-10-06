@@ -2,7 +2,7 @@
 
 Um site simples, limpo e totalmente responsivo, desenvolvido com **HTML5 e CSS3 puro**, sem frameworks. Ideal para portfólio, landing page ou apresentação pessoal.
 
-![Preview do site](https://github.com/yudisnel48/Desafio-Devclub-1.git))  
+![Preview do site](https://yudisnel48.github.io/Desafio-Devclub-1/)
 *(Substitua pela imagem real do seu site ao hospedar)*
 
 ## ✨ Recursos
