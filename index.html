@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Site profecional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">MinhaMarca</a>
+      <nav class="nav" id="nav">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Seção Hero -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>Olá, sou <span>Carlos</span></h1>
+      <p>Desenvolvedor web apaixonado por criar experiências digitais incríveis.</p>
+      <a href="#contato" class="btn">Entre em contato</a>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2>Sobre mim</h2>
+      <p>Sou um profissional com mais de 5 anos de experiência em desenvolvimento web. Especializo-me em HTML, CSS, JavaScript e design UX/UI. Adoro transformar ideias em produtos funcionais e bonitos.</p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section bg-light">
+    <div class="container">
+      <h2>Serviços</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Design Web</h3>
+          <p>Crio interfaces modernas, intuitivas e acessíveis.</p>
+        </div>
+        <div class="card">
+          <h3>Frontend</h3>
+          <p>Transformo designs em código limpo e responsivo.</p>
+        </div>
+        <div class="card">
+          <h3>Otimização</h3>
+          <p>Melhoro o desempenho e SEO do seu site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Pronto para começar seu projeto? Me escreva em: <strong>ybc@exemplo.com</strong></p>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 MinhaMarca. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script para o menu hambúrguer -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
