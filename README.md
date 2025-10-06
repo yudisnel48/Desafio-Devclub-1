@@ -2,7 +2,7 @@
 
 Um site simples, limpo e totalmente responsivo, desenvolvido com **HTML5 e CSS3 puro**, sem frameworks. Ideal para portfólio, landing page ou apresentação pessoal.
 
-![Preview do site](https://via.placeholder.com/800x400/e4edf9/212529?text=Preview+do+Site)  
+![Preview do site](index.html)  
 *(Substitua pela imagem real do seu site ao hospedar)*
 
 ## ✨ Recursos
